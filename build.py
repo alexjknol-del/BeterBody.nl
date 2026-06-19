@@ -510,7 +510,7 @@ def home():
 
 <section class="section mint">
   <div class="wrap">
-    <div class="slinc">
+    <div class="slinc slinc-solo">
       <div>
         <span class="eyebrow">{LEAF}Aanbevolen</span>
         <h2>De aanpak die wij aanraden</h2>
@@ -521,9 +521,6 @@ def home():
           <li>{LEAF}<span>Een opbouw die het jojo-effect helpt voorkomen.</span></li>
         </ul>
         <a class="btn btn-primary" href="https://rachelhulshof.nl/afvallen-met-slinc/" target="_blank" rel="noopener sponsored">Lees meer over Slinc {ARROW}</a>
-      </div>
-      <div class="slinc-media">
-        <img src="/assets/img/slinc-shaper-fit.jpg" alt="Verpakkingen van Slinc Shaper en Slinc Fit" width="1080" height="1080">
       </div>
     </div>
   </div>

@@ -131,6 +131,7 @@ strong{font-weight:700}
 .slinc ul li{display:flex;gap:12px;align-items:flex-start;font-size:1.02rem}
 .slinc ul .leaf{flex:0 0 auto;width:20px;height:22px;color:var(--green-soft);margin-top:3px}
 @media (max-width:860px){.slinc{grid-template-columns:1fr;gap:30px}.slinc-media{order:-1}}
+.slinc.slinc-solo{grid-template-columns:1fr;max-width:720px}
 
 /* highlight links list (branded anchors) */
 .linklist{display:grid;gap:2px;margin-top:8px}
