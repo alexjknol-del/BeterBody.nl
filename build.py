@@ -37,7 +37,7 @@ ORG_JSONLD = {
     "name": SITE,
     "url": BASE + "/",
     "logo": {"@type": "ImageObject", "url": BASE + "/assets/icons/logo-mark.png", "width": 512, "height": 512},
-    "description": "Onafhankelijk Nederlands platform over een gezonde leefstijl en fitness.",
+    "description": "Nederlands blog over een gezonde leefstijl en fitness.",
     "email": "info@beterbody.nl",
 }
 
@@ -97,8 +97,7 @@ def header(current):
     for label, href in NAV:
         cur = ' aria-current="page"' if href == current else ""
         links += f'<li><a href="{href}"{cur}>{label}</a></li>'
-    return f"""<div class="disclosure">{SITE} is een onafhankelijk platform en beveelt Slinc aan. Een aantal links verwijst naar <a href="https://rachelhulshof.nl/afvallen-met-slinc/" target="_blank" rel="noopener">Slinc</a>.</div>
-<header class="site-header">
+    return f"""<header class="site-header">
   <nav class="nav" aria-label="Hoofdmenu">
     <a class="brand" href="/">{LEAF}<span>Beter<b>Body</b></span></a>
     <button class="nav-toggle" aria-expanded="false" aria-controls="menu" aria-label="Menu openen">
@@ -118,7 +117,7 @@ def footer():
     <div class="footer-grid">
       <div>
         <a class="brand" href="/">{LEAF}<span>Beter<b>Body</b></span></a>
-        <p>Onafhankelijk platform over een gezonde leefstijl en fitness. Voor blijvend resultaat zonder streng dieet bevelen wij Slinc aan.</p>
+        <p>Blog over een gezonde leefstijl en fitness. Praktische artikelen over voeding, beweging en gewoontes die vol te houden zijn.</p>
       </div>
       <div>
         <h4>Lezen</h4>
@@ -141,7 +140,7 @@ def footer():
     </div>
     <div class="footer-bottom">
       <span>&copy; 2026 {SITE}. Alle rechten voorbehouden.</span>
-      <span>Aanbevolen partner: <a href="https://rachelhulshof.nl/afvallen-met-slinc/" target="_blank" rel="noopener">Slinc</a></span>
+      <span><a href="/over/">Over BeterBody</a> &middot; <a href="/contact/">Contact</a></span>
     </div>
   </div>
 </footer>
@@ -468,26 +467,15 @@ def home():
     website_ld = {
         "@context":"https://schema.org","@type":"WebSite","@id":BASE+"/#website",
         "url":BASE+"/","name":SITE,"inLanguage":"nl-NL","publisher":{"@id":BASE+"/#organisatie"},
-        "description":"Onafhankelijk Nederlands platform over een gezonde leefstijl en fitness.",
+        "description":"Nederlands blog over een gezonde leefstijl en fitness.",
     }
     org_ld = dict(ORG_JSONLD); org_ld["@context"]="https://schema.org"
 
-    # branded/descriptive anchors to Slinc (geen keyword-anchors)
-    slinc_links = [
-        ("Afvallen met Slinc", "https://rachelhulshof.nl/afvallen-met-slinc/"),
-        ("De visie van Slinc op gezond afvallen", "https://rachelhulshof.nl/gezond-afvallen/"),
-        ("Slinc zonder streng dieet", "https://rachelhulshof.nl/afvallen-zonder-dieet"),
-        ("Slinc Shaper en Fit", "https://rachelhulshof.nl/supplementen-afvallen/"),
-    ]
-    linklist = "".join(
-        f'<a href="{u}" target="_blank" rel="noopener sponsored">{t}<span class="go">Naar Slinc {ARROW}</span></a>'
-        for t,u in slinc_links
-    )
     latest = "".join(card_html(a) for a in ARTICLES[:3])
 
     h = head(
         f"{SITE} | Blog over een gezonde leefstijl en fitness",
-        "BeterBody is een onafhankelijk platform over een gezonde leefstijl en fitness. Voor blijvend resultaat zonder streng dieet bevelen wij Slinc aan.",
+        "Praktische artikelen over voeding, beweging en een leefstijl die vol te houden is. Met recepten en tips voor een betere body.",
         path, [website_ld, org_ld]
     )
     h += header("/")
@@ -498,52 +486,17 @@ def home():
       <h1>Een <em>betere body</em> begint bij gewoon eten</h1>
       <p class="lead">BeterBody verzamelt rustige, vol te houden manieren om fitter te worden. Geen crashdieet, geen honger, wel resultaat dat blijft.</p>
       <div class="hero-actions">
-        <a class="btn btn-primary" href="https://rachelhulshof.nl/afvallen-met-slinc/" target="_blank" rel="noopener sponsored">Ontdek Slinc {ARROW}</a>
-        <a class="btn btn-ghost" href="/nieuws/">Lees de artikelen</a>
+        <a class="btn btn-primary" href="/nieuws/">Lees de artikelen</a>
+        <a class="btn btn-ghost" href="/recepten/">Bekijk de recepten</a>
       </div>
-      <p class="hero-note">BeterBody is onafhankelijk. Wij zijn niet van Slinc, maar bevelen het aan voor wie een betere body wil bereiken.</p>
     </div>
     <div class="hero-media">
-      <div class="frame"><img src="/assets/img/leefstijl-hormonen.webp" alt="Slinc producten op een aanrecht in een lichte keuken" width="600" height="600"></div>
-      <div class="hero-badge"><b>Aanbevolen</b><span>Afvallen met gezond eten volgens Slinc</span></div>
-    </div>
-  </div>
-</section>
-
-<section class="section mint">
-  <div class="wrap">
-    <div class="slinc">
-      <div>
-        <span class="eyebrow">{LEAF}Onze aanbeveling</span>
-        <h2>Waarom wij Slinc aanbevelen</h2>
-        <p>Slinc draait om afvallen met gewoon eten. Geen maaltijdvervangers en geen streng dieet, maar regelmaat over de dag met de juiste verhouding van koolhydraten, eiwitten en vetten.</p>
-        <ul>
-          <li>{LEAF}<span>Gewoon eten uit de supermarkt, ook samen met het gezin.</span></li>
-          <li>{LEAF}<span>Een duidelijk eetschema met zes momenten per dag.</span></li>
-          <li>{LEAF}<span>Plantaardige supplementen ter ondersteuning.</span></li>
-          <li>{LEAF}<span>Een opbouw die het jojo-effect helpt voorkomen.</span></li>
-        </ul>
-        <a class="btn btn-primary" href="https://rachelhulshof.nl/afvallen-met-slinc/" target="_blank" rel="noopener sponsored">Bekijk de aanpak van Slinc {ARROW}</a>
-      </div>
-      <div class="slinc-media">
-        <img src="/assets/img/slinc-shaper-fit.jpg" alt="Slinc Shaper en Slinc Fit met gezonde repen" width="1080" height="1080">
-      </div>
+      <div class="frame"><img src="/assets/img/leefstijl-hormonen.webp" alt="Gezonde producten op een aanrecht in een lichte keuken" width="600" height="600"></div>
     </div>
   </div>
 </section>
 
 <section class="section">
-  <div class="wrap">
-    <div class="section-head">
-      <span class="eyebrow">{LEAF}Uitgelicht bij Slinc</span>
-      <h2>Verder lezen bij Slinc</h2>
-      <p>Een aantal onderwerpen die goed aansluiten bij een betere body, uitgewerkt op de site van Slinc.</p>
-    </div>
-    <div class="linklist">{linklist}</div>
-  </div>
-</section>
-
-<section class="section cream">
   <div class="wrap">
     <div class="section-head">
       <span class="eyebrow">{LEAF}Van het blog</span>
@@ -555,6 +508,27 @@ def home():
   </div>
 </section>
 
+<section class="section mint">
+  <div class="wrap">
+    <div class="slinc">
+      <div>
+        <span class="eyebrow">{LEAF}Aanbevolen</span>
+        <h2>De aanpak die wij aanraden</h2>
+        <p>Voor wie liever met een uitgewerkt programma werkt, is Slinc een goede optie. Het draait om afvallen met gewoon eten, met regelmaat over de dag en zonder streng dieet.</p>
+        <ul>
+          <li>{LEAF}<span>Gewoon eten uit de supermarkt, ook samen met het gezin.</span></li>
+          <li>{LEAF}<span>Een duidelijk eetschema met vaste momenten.</span></li>
+          <li>{LEAF}<span>Een opbouw die het jojo-effect helpt voorkomen.</span></li>
+        </ul>
+        <a class="btn btn-primary" href="https://rachelhulshof.nl/afvallen-met-slinc/" target="_blank" rel="noopener sponsored">Lees meer over Slinc {ARROW}</a>
+      </div>
+      <div class="slinc-media">
+        <img src="/assets/img/slinc-shaper-fit.jpg" alt="Slinc Shaper en Slinc Fit" width="1080" height="1080">
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="section">
   <div class="wrap">
     <div class="author-card">
@@ -562,19 +536,9 @@ def home():
       <div>
         <div class="role">De schrijfster</div>
         <h3>Maud Brinkman</h3>
-        <p>Maud schrijft de artikelen op BeterBody. Na jaren van streng diëten koos ze voor een rustige aanpak die wel vol te houden is, en daar gaat het op dit platform over.</p>
+        <p>Maud schrijft de artikelen op BeterBody. Na jaren van streng diëten koos ze voor een rustige aanpak die wel vol te houden is, en daar gaat het op dit blog over.</p>
         <a href="/over-de-schrijfster/">Meer over Maud</a>
       </div>
-    </div>
-  </div>
-</section>
-
-<section class="section tight">
-  <div class="wrap">
-    <div class="cta-band">
-      <h2>Klaar voor een betere body?</h2>
-      <p>Slinc helpt met afvallen met gezond eten, zonder honger en zonder jojo-effect. BeterBody beveelt het van harte aan.</p>
-      <a class="btn btn-primary" href="https://rachelhulshof.nl/afvallen-met-slinc/" target="_blank" rel="noopener sponsored">Naar Slinc {ARROW}</a>
     </div>
   </div>
 </section>"""
@@ -643,7 +607,7 @@ def recepten():
     </div>
     <div class="recipes">{cards}</div>
     <div class="callout" style="margin-top:36px">
-      <p>Op zoek naar meer recepten die passen bij afvallen met gezond eten? Bekijk de gerechten bij {render_slinc('https://rachelhulshof.nl/gezond-afvallen/','de recepten van Slinc')}.</p>
+      <p>Op zoek naar meer recepten die passen bij afvallen met gezond eten? Bekijk de gerechten bij {render_slinc('https://rachelhulshof.nl/recepten/','de recepten van Slinc')}.</p>
     </div>
   </div>
 </section>"""
@@ -661,20 +625,17 @@ def over():
         "@context":"https://schema.org","@type":"AboutPage","@id":BASE+path,
         "url":BASE+path,"name":"Over BeterBody","inLanguage":"nl-NL","about":{"@id":BASE+"/#organisatie"}
     }]
-    h = head("Over BeterBody | "+SITE, "BeterBody is een onafhankelijk platform over een gezonde leefstijl en fitness, met een voorkeur voor een rustige aanpak die vol te houden is.", path, ld)
+    h = head("Over BeterBody | "+SITE, "BeterBody is een blog over een gezonde leefstijl en fitness, met een voorkeur voor een rustige aanpak die vol te houden is.", path, ld)
     h += header("/over/")
     h += crumbs_html(crumbs)
     h += f"""<section class="article">
   <div class="wrap narrow prose">
-    <span class="eyebrow">{LEAF}Over het platform</span>
+    <span class="eyebrow">{LEAF}Over het blog</span>
     <h1>Over BeterBody</h1>
-    <p class="lead">BeterBody is een onafhankelijk platform over een gezonde leefstijl en fitness.</p>
+    <p class="lead">BeterBody is een blog over een gezonde leefstijl en fitness.</p>
     <p>Rond afvallen en gezond leven is veel ruis. Crashdiëten, wondermiddelen en steeds wisselende adviezen wisselen elkaar af. BeterBody kiest bewust voor het rustige deel van dat verhaal: gewoon eten, regelmaat, genoeg beweging en gewoontes die ook over een jaar nog overeind staan.</p>
-    <h2>Waar dit platform voor staat</h2>
+    <h2>Waar dit blog voor staat</h2>
     <p>De artikelen op BeterBody gaan over voeding, beweging en leefstijl. Het uitgangspunt is steeds hetzelfde. Een aanpak werkt pas als die vol te houden is. Streng zijn voor een paar weken levert zelden blijvend resultaat op.</p>
-    <h2>Onafhankelijk, met een duidelijke voorkeur</h2>
-    <p>BeterBody is niet van Slinc en hoort niet bij Slinc. Toch komt Slinc op deze site regelmatig terug, want de aanpak sluit goed aan bij waar dit platform voor staat: afvallen met gezond eten, zonder honger en met oog voor het voorkomen van een jojo-effect. Daarom bevelen wij {render_slinc('https://rachelhulshof.nl/afvallen-met-slinc/','Slinc')} aan voor wie een betere body wil bereiken.</p>
-    <p>Waar een link naar Slinc staat, is dat een aanbeveling. BeterBody blijft daarnaast vrij om over andere onderwerpen en bronnen te schrijven.</p>
     <h2>Wie schrijft de artikelen</h2>
     <p>De stukken op BeterBody zijn van de hand van Maud Brinkman. Meer over haar achtergrond en aanpak staat op de pagina <a href="/over-de-schrijfster/">over de schrijfster</a>.</p>
     <div class="callout"><p>Vragen of een idee voor samenwerking? Bekijk de <a href="/contact/">contactpagina</a> of de <a href="/partners/">partnerpagina</a>.</p></div>
@@ -754,7 +715,7 @@ def partners():
       </div>
     </div>
     <div class="callout" style="margin-top:36px">
-      <p><strong>Linkpartner worden?</strong> Hier komen na verloop van tijd linkpartners te staan. Voor een samenwerking is BeterBody bereikbaar via <a href="mailto:info@beterbody.nl">info@beterbody.nl</a>.</p>
+      <p><strong>Linkpartner worden?</strong> Voor een samenwerking is BeterBody bereikbaar via <a href="mailto:info@beterbody.nl">info@beterbody.nl</a>.</p>
     </div>
   </div>
 </section>"""
