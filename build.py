@@ -190,7 +190,7 @@ ARTICLES = [
         "slug": "streng-dieet-werkt-zelden",
         "tag": "Voeding",
         "title": "Waarom een streng dieet zelden blijft werken",
-        "desc": "Een streng dieet levert snel resultaat op, maar houdt zelden stand. Een rustige aanpak die vol te houden is, werkt op lange termijn beter.",
+        "desc": "Een streng dieet levert snel resultaat op, maar houdt zelden stand. Een aanpak die vol te houden is, werkt op lange termijn beter.",
         "date": "2026-02-04",
         "intro": "Ik heb de meeste crashdiëten zelf geprobeerd. Het patroon was elke keer hetzelfde: een paar weken streng volhouden, daarna terugvallen en de kilo's weer aankomen.",
         "body": [
@@ -199,17 +199,17 @@ ARTICLES = [
             ("h2", "Volhouden is belangrijker dan streng zijn"),
             ("p", "Blijvend resultaat hangt niet af van de strengste week, maar van wat na een jaar nog overeind staat. Een eetpatroon dat past bij het dagelijks leven, met genoeg variatie en zonder constant honger, is makkelijker vast te houden dan een kort en hard regime."),
             ("p", "Daar hoort ook bij dat af en toe iets lekkers mogelijk blijft. Een aanpak die niets toestaat, leidt eerder tot een terugval dan een aanpak met ruimte."),
-            ("callout", "Wie zoekt naar een rustige opbouw zonder streng dieet, vindt bij <slinc href='https://rachelhulshof.nl/afvallen-zonder-dieet' anchor='afvallen zonder dieet'></slinc> een uitgewerkt voorbeeld van die gedachte: gewoon eten, met regelmaat over de dag."),
+            ("callout", "Wie zoekt naar een opbouw zonder streng dieet, vindt bij <slinc href='https://rachelhulshof.nl/afvallen-zonder-dieet' anchor='afvallen zonder dieet'></slinc> een uitgewerkt voorbeeld van die gedachte: gewoon eten, met regelmaat over de dag."),
             ("h2", "Drie dingen die wel houdbaar zijn"),
             ("ul", [
                 "Regelmatig eten over de dag, zodat grote trek minder kans krijgt.",
-                "Genoeg eiwit en vezels, voor een rustig verzadigd gevoel.",
+                "Genoeg eiwit en vezels, voor een langer verzadigd gevoel.",
                 "Dagelijks wat beweging, los van een sportschool.",
             ]),
             ("p", "Deze drie gewoontes vragen geen wilskracht voor twee weken, maar passen in een gewoon weekschema. Meer hierover staat in het artikel over <link href='/nieuws/vezels-en-verzadiging/' anchor='vezels en verzadiging'></link> en in dat over <link href='/nieuws/dagelijks-bewegen/' anchor='dagelijks bewegen'></link>."),
         ],
         "faq": [
-            ("Hoe snel mag gewicht eraf?", "Een rustig tempo is beter vol te houden dan een snelle daling. Wie langzaam afbouwt, behoudt meer spiermassa en loopt minder kans op een terugval."),
+            ("Hoe snel mag gewicht eraf?", "Een geleidelijk tempo is beter vol te houden dan een snelle daling. Wie langzaam afbouwt, behoudt meer spiermassa en loopt minder kans op een terugval."),
             ("Waarom kom ik na een dieet weer aan?", "Een streng dieet is moeilijk lang vol te houden. Zodra het oude patroon terugkeert, keert het gewicht meestal mee terug. Een vol te houden aanpak voorkomt dat."),
             ("Helpt minder eten altijd?", "Heel weinig eten is zelden lang vol te houden en leidt vaak tot eetbuien. Genoeg en gevarieerd eten werkt op lange termijn beter."),
         ],
@@ -218,13 +218,13 @@ ARTICLES = [
     {
         "slug": "vezels-en-verzadiging",
         "tag": "Voeding",
-        "title": "Vezels en een rustig verzadigd gevoel",
-        "desc": "Vezels zorgen voor een langer verzadigd gevoel en een rustige spijsvertering. Een overzicht van vezelrijke producten en wat ze doen.",
+        "title": "Vezels en een langer verzadigd gevoel",
+        "desc": "Vezels zorgen voor een langer verzadigd gevoel en een soepele spijsvertering. Een overzicht van vezelrijke producten en wat ze doen.",
         "date": "2026-02-18",
         "intro": "Vezels horen bij de minst spannende onderwerpen rond voeding, en tegelijk bij de meest praktische. Ze maken het makkelijker om met minder moeite verzadigd te blijven.",
         "body": [
             ("h2", "Wat vezels doen"),
-            ("p", "Vezels zijn delen van plantaardig voedsel die het lichaam niet volledig verteert. Ze geven volume aan een maaltijd, vragen meer kauwwerk en zorgen voor een rustige overgang van voedsel door het darmkanaal. Het gevolg is een verzadigd gevoel dat langer aanhoudt."),
+            ("p", "Vezels zijn delen van plantaardig voedsel die het lichaam niet volledig verteert. Ze geven volume aan een maaltijd, vragen meer kauwwerk en zorgen voor een geleidelijke overgang van voedsel door het darmkanaal. Het gevolg is een verzadigd gevoel dat langer aanhoudt."),
             ("h2", "Waar vezels in zitten"),
             ("ul", [
                 "Groente, van rauwkost tot gestoofde groenten bij het avondeten.",
@@ -234,11 +234,11 @@ ARTICLES = [
             ]),
             ("p", "Een eenvoudige stap is om bij elke maaltijd iets met vezels toe te voegen. Een handvol groente bij de lunch of een portie peulvruchten bij het avondeten telt al snel op."),
             ("h2", "Vezels en de bloedsuikerspiegel"),
-            ("p", "Vezelrijke producten worden langzamer opgenomen dan snelle suikers. Daardoor blijft de bloedsuikerspiegel rustiger, zonder grote pieken en dalen. Dat helpt om tussendoor minder snel trek te krijgen."),
+            ("p", "Vezelrijke producten worden langzamer opgenomen dan snelle suikers. Daardoor blijft de bloedsuikerspiegel stabieler, zonder grote pieken en dalen. Dat helpt om tussendoor minder snel trek te krijgen."),
             ("callout", "Een eetschema dat draait om regelmaat en vezelrijke keuzes is terug te zien in <slinc href='https://rachelhulshof.nl/gezond-afvallen/' anchor='de visie van Slinc op gezond afvallen'></slinc>."),
         ],
         "faq": [
-            ("Hoeveel vezels per dag is genoeg?", "Voor volwassenen wordt ongeveer dertig tot veertig gram per dag aangeraden. Veel mensen halen dat niet en kunnen dus rustig wat meer groente en volkoren producten toevoegen."),
+            ("Hoeveel vezels per dag is genoeg?", "Voor volwassenen wordt ongeveer dertig tot veertig gram per dag aangeraden. Veel mensen halen dat niet en kunnen dus wat meer groente en volkoren producten toevoegen."),
             ("Maakt veel groente eten een verschil?", "Groente bevat veel vezels en weinig calorieën. Meer groente op het bord betekent meer volume en verzadiging zonder veel extra calorieën."),
             ("Zijn vezels uit fruit ook goed?", "Ja. Fruit met schil levert vezels en houdt langer verzadigd dan vruchtensap, dat de vezels mist."),
         ],
@@ -256,7 +256,7 @@ ARTICLES = [
             ("p", "Eiwitten zijn de bouwstenen van spieren. Tijdens het afvallen krijgt het lichaam minder energie binnen dan het verbruikt. Met genoeg eiwit blijft de spiermassa beter behouden en haalt het lichaam de energie eerder uit vetreserves."),
             ("p", "Spiermassa verbruikt bovendien meer energie dan vet. Behoud van spieren helpt daarom om de stofwisseling op peil te houden."),
             ("h2", "Eiwit en verzadiging"),
-            ("p", "Eiwitrijke maaltijden geven een sterker verzadigd gevoel dan maaltijden met vooral snelle koolhydraten. Dat maakt het makkelijker om met een rustige portie tevreden te zijn."),
+            ("p", "Eiwitrijke maaltijden geven een sterker verzadigd gevoel dan maaltijden met vooral snelle koolhydraten. Dat maakt het makkelijker om met een kleinere portie tevreden te zijn."),
             ("h2", "Goede bronnen van eiwit"),
             ("ul", [
                 "Magere zuivel zoals kwark en yoghurt.",
@@ -293,7 +293,7 @@ ARTICLES = [
             ]),
             ("h2", "Bewegen en eten in balans"),
             ("p", "Meer bewegen vraagt om voldoende voeding. Wie actiever wordt, hoeft niet minder te eten, maar juist genoeg om het lichaam van energie te voorzien. Meer hierover staat in het artikel over <link href='/nieuws/streng-dieet-werkt-zelden/' anchor='een streng dieet'></link>."),
-            ("callout", "Beweging in combinatie met een rustig eetritme is de basis van <slinc href='https://rachelhulshof.nl/afvallen-met-slinc/' anchor='afvallen met Slinc'></slinc>."),
+            ("callout", "Beweging in combinatie met een regelmatig eetritme is de basis van <slinc href='https://rachelhulshof.nl/afvallen-met-slinc/' anchor='afvallen met Slinc'></slinc>."),
         ],
         "faq": [
             ("Is wandelen genoeg om fit te blijven?", "Dagelijks stevig wandelen draagt veel bij aan de algehele gezondheid. Voor extra resultaat helpt het om af en toe iets actievers toe te voegen."),
@@ -306,13 +306,13 @@ ARTICLES = [
         "slug": "jojo-effect-voorkomen",
         "tag": "Leefstijl",
         "title": "Het jojo-effect voorkomen na een dieet",
-        "desc": "Na een dieet komen de kilo's vaak terug. Met een rustige opbouw en houdbare gewoontes blijft het gewicht beter stabiel.",
+        "desc": "Na een dieet komen de kilo's vaak terug. Met een stapsgewijze opbouw en houdbare gewoontes blijft het gewicht beter stabiel.",
         "date": "2026-04-08",
         "intro": "Afvallen lukt veel mensen wel. Het lastige deel komt erna: het gewicht eraf houden. Dat heen en weer gaan heet het jojo-effect.",
         "body": [
             ("h2", "Hoe het jojo-effect ontstaat"),
             ("p", "Het jojo-effect komt meestal door een te streng dieet dat niet vol te houden is. Na afloop keert het oude eetpatroon terug, en daarmee het gewicht. Soms komt er zelfs meer bij dan eraf ging."),
-            ("h2", "Een rustige overgang"),
+            ("h2", "Een geleidelijke overgang"),
             ("p", "De stap van een dieet naar gewoon eten gaat het beste in fases. In plaats van direct terug naar het oude patroon, helpt een geleidelijke opbouw waarin meer volwaardige producten een plek krijgen, met behoud van regelmaat."),
             ("p", "Slinc werkt dit principe uit met een opbouw na de eerste fase, waarin het eetpatroon stap voor stap ruimer wordt. Meer daarover staat bij <slinc href='https://rachelhulshof.nl/afvallen-met-slinc/' anchor='de aanpak van Slinc'></slinc>."),
             ("figure", "/assets/img/slinc-fase2-fase3.webp", "Slinc fase 2 en fase 3 met Shaper, Fit en Balance", "De opbouw van Slinc verloopt in fases, van stabiliseren naar balans."),
@@ -326,7 +326,7 @@ ARTICLES = [
             ("p", "Deze gewoontes sluiten aan bij wat er staat over <link href='/nieuws/eiwitten-en-spiermassa/' anchor='eiwitten en spiermassa'></link> en over <link href='/nieuws/dagelijks-bewegen/' anchor='dagelijks bewegen'></link>."),
         ],
         "faq": [
-            ("Waarom kom ik na een dieet weer aan?", "Meestal omdat het dieet te streng was om vol te houden. Een rustige opbouw en houdbare gewoontes voorkomen dat het gewicht terugkomt."),
+            ("Waarom kom ik na een dieet weer aan?", "Meestal omdat het dieet te streng was om vol te houden. Een zorgvuldige opbouw en houdbare gewoontes voorkomen dat het gewicht terugkomt."),
             ("Hoe houd ik mijn gewicht stabiel?", "Met regelmaat, genoeg eiwit en vezels, dagelijkse beweging en ruimte voor af en toe iets lekkers."),
             ("Is een onderhoudsfase nodig?", "Een geleidelijke overgang van afvallen naar onderhoud helpt om het jojo-effect te voorkomen."),
         ],
@@ -484,14 +484,14 @@ def home():
     <div>
       <span class="eyebrow">{LEAF}Gezonde leefstijl en fitness</span>
       <h1>Een <em>betere body</em> begint bij gewoon eten</h1>
-      <p class="lead">BeterBody verzamelt rustige, vol te houden manieren om fitter te worden. Geen crashdieet, geen honger, wel resultaat dat blijft.</p>
+      <p class="lead">BeterBody verzamelt praktische, vol te houden manieren om fitter te worden. Geen crashdieet, geen honger, wel resultaat dat blijft.</p>
       <div class="hero-actions">
         <a class="btn btn-primary" href="/nieuws/">Lees de artikelen</a>
         <a class="btn btn-ghost" href="/recepten/">Bekijk de recepten</a>
       </div>
     </div>
     <div class="hero-media">
-      <div class="frame"><img src="/assets/img/leefstijl-hormonen.webp" alt="Gezonde producten op een aanrecht in een lichte keuken" width="600" height="600"></div>
+      <div class="frame"><img src="/assets/img/leefstijl-hormonen.webp" alt="Slinc supplementen op een aanrecht in een lichte keuken" width="600" height="600"></div>
     </div>
   </div>
 </section>
@@ -523,7 +523,7 @@ def home():
         <a class="btn btn-primary" href="https://rachelhulshof.nl/afvallen-met-slinc/" target="_blank" rel="noopener sponsored">Lees meer over Slinc {ARROW}</a>
       </div>
       <div class="slinc-media">
-        <img src="/assets/img/slinc-shaper-fit.jpg" alt="Slinc Shaper en Slinc Fit" width="1080" height="1080">
+        <img src="/assets/img/slinc-shaper-fit.jpg" alt="Verpakkingen van Slinc Shaper en Slinc Fit" width="1080" height="1080">
       </div>
     </div>
   </div>
@@ -536,7 +536,7 @@ def home():
       <div>
         <div class="role">De schrijfster</div>
         <h3>Maud Brinkman</h3>
-        <p>Maud schrijft de artikelen op BeterBody. Na jaren van streng diëten koos ze voor een rustige aanpak die wel vol te houden is, en daar gaat het op dit blog over.</p>
+        <p>Maud schrijft de artikelen op BeterBody. Na jaren van streng diëten koos ze voor een aanpak die wel vol te houden is, en daar gaat het op dit blog over.</p>
         <a href="/over-de-schrijfster/">Meer over Maud</a>
       </div>
     </div>
@@ -559,7 +559,7 @@ def nieuws_index():
         "publisher":{"@id":BASE+"/#organisatie"},
         "blogPost":[{"@type":"BlogPosting","headline":a["title"],"url":BASE+f"/nieuws/{a['slug']}/","datePublished":a["date"]} for a in ARTICLES]
     }]
-    h = head("Nieuws | "+SITE, "Artikelen over een gezonde leefstijl, voeding en fitness. Praktisch, rustig en vol te houden.", path, ld)
+    h = head("Nieuws | "+SITE, "Artikelen over een gezonde leefstijl, voeding en fitness. Praktisch en vol te houden.", path, ld)
     h += header("/nieuws/")
     h += crumbs_html(crumbs)
     h += f"""<section class="section">
@@ -583,12 +583,12 @@ def recepten():
     path = "/recepten/"
     crumbs = [("Home","/"),("Recepten",path)]
     recipes = [
-        ("Ontbijt", "Havermout met fruit en kwark", "Havermout met een schep magere kwark en vers fruit. Vezels en eiwit zorgen samen voor een rustig verzadigd gevoel tot de ochtendsnack."),
+        ("Ontbijt", "Havermout met fruit en kwark", "Havermout met een schep magere kwark en vers fruit. Vezels en eiwit zorgen samen voor een langer verzadigd gevoel tot de ochtendsnack."),
         ("Lunch", "Volkoren wrap met kip en groente", "Een volkoren wrap met kipfilet, sla, tomaat en komkommer. Snel klaar en goed mee te nemen."),
         ("Avond", "Poké bowl met kip teriyaki", "Zilvervliesrijst met kip, edamame en frisse groente. Voedzaam en gevarieerd, met genoeg eiwit."),
         ("Avond", "Griekse salade met feta", "Tomaat, komkommer, rode ui, olijven en een blokje feta. Licht en vezelrijk als bijgerecht of lichte maaltijd."),
         ("Salade", "Orzo salade met sinaasappel", "Orzo met feta, frisse kruiden en partjes sinaasappel. Lekker als lunch of bijgerecht."),
-        ("Toetje", "Magere yoghurt met noten", "Magere yoghurt met een kleine portie noten en kaneel. Een rustig toetje met wat extra eiwit."),
+        ("Toetje", "Magere yoghurt met noten", "Magere yoghurt met een kleine portie noten en kaneel. Een licht toetje met wat extra eiwit."),
     ]
     cards = "".join(
         f'<div class="recipe"><span class="kcal">{k}</span><h3>{esc(t)}</h3><p>{esc(d)}</p></div>'
@@ -625,7 +625,7 @@ def over():
         "@context":"https://schema.org","@type":"AboutPage","@id":BASE+path,
         "url":BASE+path,"name":"Over BeterBody","inLanguage":"nl-NL","about":{"@id":BASE+"/#organisatie"}
     }]
-    h = head("Over BeterBody | "+SITE, "BeterBody is een blog over een gezonde leefstijl en fitness, met een voorkeur voor een rustige aanpak die vol te houden is.", path, ld)
+    h = head("Over BeterBody | "+SITE, "BeterBody is een blog over een gezonde leefstijl en fitness, met een voorkeur voor een aanpak die vol te houden is.", path, ld)
     h += header("/over/")
     h += crumbs_html(crumbs)
     h += f"""<section class="article">
@@ -633,7 +633,7 @@ def over():
     <span class="eyebrow">{LEAF}Over het blog</span>
     <h1>Over BeterBody</h1>
     <p class="lead">BeterBody is een blog over een gezonde leefstijl en fitness.</p>
-    <p>Rond afvallen en gezond leven is veel ruis. Crashdiëten, wondermiddelen en steeds wisselende adviezen wisselen elkaar af. BeterBody kiest bewust voor het rustige deel van dat verhaal: gewoon eten, regelmaat, genoeg beweging en gewoontes die ook over een jaar nog overeind staan.</p>
+    <p>Rond afvallen en gezond leven is veel ruis. Crashdiëten, wondermiddelen en steeds wisselende adviezen wisselen elkaar af. BeterBody kiest bewust voor het nuchtere deel van dat verhaal: gewoon eten, regelmaat, genoeg beweging en gewoontes die ook over een jaar nog overeind staan.</p>
     <h2>Waar dit blog voor staat</h2>
     <p>De artikelen op BeterBody gaan over voeding, beweging en leefstijl. Het uitgangspunt is steeds hetzelfde. Een aanpak werkt pas als die vol te houden is. Streng zijn voor een paar weken levert zelden blijvend resultaat op.</p>
     <h2>Wie schrijft de artikelen</h2>
@@ -652,7 +652,7 @@ def schrijfster():
     path = "/over-de-schrijfster/"
     crumbs = [("Home","/"),("Over de schrijfster",path)]
     person = dict(PERSON_JSONLD); person["@context"]="https://schema.org"
-    person["description"]="Leefstijl- en gezondheidsschrijver bij BeterBody. Schrijft over een rustige, vol te houden aanpak van gezond leven."
+    person["description"]="Leefstijl- en gezondheidsschrijver bij BeterBody. Schrijft over een vol te houden aanpak van gezond leven."
     ld = [person, breadcrumb(crumbs)]
     h = head("Over de schrijfster | "+SITE, "Maud Brinkman schrijft de artikelen op BeterBody over een gezonde leefstijl en fitness.", path, ld)
     h += header("/over/")
@@ -668,10 +668,10 @@ def schrijfster():
       </div>
     </div>
     <p class="lead">Ik ben Maud, schrijver van de artikelen op BeterBody.</p>
-    <p>Mijn hele tienertijd en de jaren daarna was ik bezig met afvallen. Ik kende elk dieet, elke shake en elke app, en toch bleef het gewicht heen en weer gaan. Pas toen ik stopte met streng zijn en koos voor een rustige aanpak, bleef het resultaat eindelijk hangen.</p>
+    <p>Mijn hele tienertijd en de jaren daarna was ik bezig met afvallen. Ik kende elk dieet, elke shake en elke app, en toch bleef het gewicht heen en weer gaan. Pas toen ik stopte met streng zijn en koos voor een aanpak die vol te houden was, bleef het resultaat eindelijk hangen.</p>
     <p>Op BeterBody schrijf ik over wat me daarbij geholpen heeft. Genoeg en gevarieerd eten, regelmaat over de dag, en dagelijks wat bewegen zonder dat het een verplichting wordt. Geen wondermiddelen, geen overdreven beloftes.</p>
     <p>Ik ben geen diëtist en geef geen medisch advies. Ik deel wat ik lees, wat ik zelf merk en wat in de praktijk vol te houden blijkt. Wie met een gezondheidsklacht zit, raad ik altijd aan om een huisarts of diëtist te raadplegen.</p>
-    <p>Voor wie graag met een uitgewerkt programma werkt, beveel ik {render_slinc('https://rachelhulshof.nl/afvallen-met-slinc/','Slinc')} aan. Het sluit goed aan bij de rustige aanpak waar ik zelf baat bij had.</p>
+    <p>Voor wie graag met een uitgewerkt programma werkt, beveel ik {render_slinc('https://rachelhulshof.nl/afvallen-met-slinc/','Slinc')} aan. Het sluit goed aan bij de aanpak waar ik zelf baat bij had.</p>
     <p><a href="/nieuws/">Lees de artikelen van Maud</a></p>
   </div>
 </section>"""
@@ -781,7 +781,6 @@ def privacy():
     <p>Informatie over het gebruik van cookies staat in het <a href="/cookiebeleid/">cookiebeleid</a>.</p>
     <h2>Contact</h2>
     <p>Vragen over dit privacybeleid kunnen per e-mail worden gesteld via <a href="mailto:info@beterbody.nl">info@beterbody.nl</a>.</p>
-    <div class="callout"><p><strong>Let op voor de beheerder:</strong> vul hier de juiste bedrijfs- of eigenaargegevens aan, zoals naam, adres en KvK-nummer, voordat de site live gaat.</p></div>
   </div>
 </section>"""
     h += footer()
@@ -812,7 +811,6 @@ def cookies():
     <p>Cookies kunnen via de browserinstellingen worden bekeken en verwijderd. In de meeste browsers is het mogelijk om cookies te blokkeren of een melding te krijgen voordat een cookie wordt geplaatst.</p>
     <h2>Vragen</h2>
     <p>Vragen over dit cookiebeleid kunnen per e-mail worden gesteld via <a href="mailto:info@beterbody.nl">info@beterbody.nl</a>.</p>
-    <div class="callout"><p><strong>Let op voor de beheerder:</strong> pas dit beleid aan zodra er analytics of andere scripts worden toegevoegd die wel cookies plaatsen.</p></div>
   </div>
 </section>"""
     h += footer()
