@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Getekend portret van Maud Brinkman">
+  <defs>
+    <clipPath id="circle"><circle cx="200" cy="200" r="200"/></clipPath>
+  </defs>
+  <g clip-path="url(#circle)">
+    <rect width="400" height="400" fill="#D7EAE0"/>
+    <circle cx="200" cy="168" r="118" fill="#2F5D4E" opacity="0.08"/>
+    <!-- shoulders / top -->
+    <path d="M70 400 C70 320 120 286 200 286 C280 286 330 320 330 400 Z" fill="#EAD1CB"/>
+    <path d="M150 300 C150 340 250 340 250 300 L250 268 L150 268 Z" fill="#F0C9B6"/>
+    <!-- neck shadow -->
+    <path d="M150 286 C170 300 230 300 250 286 L250 270 L150 270 Z" fill="#E2B6A1"/>
+    <!-- hair back -->
+    <path d="M104 196 C104 110 150 70 200 70 C250 70 296 110 296 196 C296 250 286 286 286 286 C286 286 270 250 270 210 C250 232 150 232 130 210 C130 250 114 286 114 286 C114 286 104 250 104 196 Z" fill="#6B4A33"/>
+    <!-- face -->
+    <path d="M132 178 C132 122 160 96 200 96 C240 96 268 122 268 178 C268 226 240 262 200 262 C160 262 132 226 132 178 Z" fill="#F4D0BC"/>
+    <!-- ears -->
+    <circle cx="132" cy="188" r="13" fill="#F0C9B6"/>
+    <circle cx="268" cy="188" r="13" fill="#F0C9B6"/>
+    <!-- cheeks -->
+    <circle cx="160" cy="200" r="15" fill="#EBA9A0" opacity="0.45"/>
+    <circle cx="240" cy="200" r="15" fill="#EBA9A0" opacity="0.45"/>
+    <!-- brows -->
+    <path d="M150 158 C160 150 178 150 186 156" stroke="#6B4A33" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <path d="M214 156 C222 150 240 150 250 158" stroke="#6B4A33" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <!-- eyes -->
+    <circle cx="168" cy="178" r="8.5" fill="#2F3A33"/>
+    <circle cx="232" cy="178" r="8.5" fill="#2F3A33"/>
+    <circle cx="171" cy="175" r="2.6" fill="#fff"/>
+    <circle cx="235" cy="175" r="2.6" fill="#fff"/>
+    <!-- nose -->
+    <path d="M200 182 C196 196 194 202 200 208 C204 208 207 206 208 204" stroke="#E2B6A1" stroke-width="4" stroke-linecap="round" fill="none"/>
+    <!-- smile -->
+    <path d="M176 224 C190 240 210 240 224 224" stroke="#C77A6B" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <!-- hair front sweep -->
+    <path d="M132 182 C128 120 162 92 200 92 C238 92 272 118 268 176 C262 150 246 132 220 128 C236 142 240 158 238 170 C220 140 168 138 150 168 C146 176 140 182 132 182 Z" fill="#7A553B"/>
+    <!-- small sprig accent on shoulder -->
+    <g transform="translate(244 322) scale(1.5)" fill="#2F5D4E">
+      <path d="M0 30 C0 20 0 12 0 4" stroke="#2F5D4E" stroke-width="2" stroke-linecap="round"/>
+      <path d="M0 12 C-4 11 -7 12.5 -9 16 C-5 17 -2 16 0 12 Z"/>
+      <path d="M0 9 C4 8 7 9.5 9 13 C5 14 2 13 0 9 Z"/>
+    </g>
+  </g>
+</svg>

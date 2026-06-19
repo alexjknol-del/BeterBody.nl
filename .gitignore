@@ -1,0 +1,5 @@
+# Gegenereerde output (Cloudflare bouwt dit zelf met build.py)
+site/
+__pycache__/
+*.pyc
+.DS_Store
