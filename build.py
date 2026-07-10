@@ -187,6 +187,37 @@ def crumbs_html(items):
 # ----------------------------------------------------------------------------
 ARTICLES = [
     {
+        "slug": "sportfysiotherapie-herstel-en-preventie",
+        "tag": "Fitness",
+        "title": "Sportfysiotherapie: gericht herstellen en blessures voorkomen",
+        "desc": "Wat sportfysiotherapie inhoudt, bij welke klachten het helpt en hoe het bijdraagt aan herstel en het voorkomen van sportblessures.",
+        "date": "2026-06-18",
+        "intro": "Sporten houdt fit, maar brengt ook een risico op blessures met zich mee. Een verzwikte enkel, een overbelaste knie of een pijnlijke schouder kan het bewegen flink in de weg zitten. Sportfysiotherapie richt zich op het herstel van sportgerelateerde klachten en op het voorkomen ervan in de toekomst.",
+        "body": [
+            ("h2", "Wat is sportfysiotherapie?"),
+            ("p", "Sportfysiotherapie is een specialisatie binnen de fysiotherapie, gericht op mensen die bewegen en sporten. Een sportfysiotherapeut weet hoe het lichaam reageert op fysieke inspanning en hoe een blessure ontstaat. Die kennis maakt een gerichte behandeling mogelijk, afgestemd op de belasting van de betreffende sport. De doelgroep is breed: van de fanatieke sporter tot kinderen en ouderen die actief willen blijven."),
+            ("h2", "Veelvoorkomende sportblessures"),
+            ("p", "De meeste sportklachten spelen zich af rond de knie, de enkel en de schouder. Denk aan een verstuikte enkel, een overbelaste knie of schouderpijn na eenzijdige bewegingen. Ook peesklachten, spierblessures en overbelasting door een te snelle opbouw komen regelmatig voor. Een sportfysiotherapeut brengt de oorzaak in kaart en stelt een behandelplan op dat past bij het herstel en bij de sport die iemand beoefent."),
+            ("h2", "Herstel en preventie in een"),
+            ("p", "Een behandeling stopt niet bij het verhelpen van de klacht. Minstens zo belangrijk is het voorkomen van herhaling. Door te kijken naar houding, techniek, kracht en belastbaarheid wordt duidelijk waar de zwakke plekken zitten. Gerichte oefeningen en advies op maat verkleinen de kans dat dezelfde blessure terugkeert. Ook alledaagse beweging telt mee, zoals beschreven in het artikel over <link href='/nieuws/dagelijks-bewegen/' anchor='dagelijks bewegen'></link>."),
+            ("h2", "Sport als onderdeel van de therapie"),
+            ("p", "Bewegen is niet alleen een oorzaak van klachten, maar ook een middel om te herstellen. In sommige gevallen is sport juist een vast onderdeel van de behandeling, bijvoorbeeld bij kwetsbare doelgroepen of bij een herstart na een langere periode van weinig beweging. De training wordt dan zo opgebouwd dat andere lichaamsdelen sterker worden en het lichaam als geheel belastbaarder wordt."),
+            ("h2", "Samenwerking met andere professionals"),
+            ("p", "Een sportfysiotherapeut werkt zelden alleen. Bij complexere klachten volgt afstemming met sportartsen, sportmasseurs en arbo-artsen. Ook overleg met de trainer of de fysiotherapeut van een sportvereniging hoort daarbij, als daar behoefte aan is. Die samenwerking zorgt dat een sporter vanuit meerdere invalshoeken wordt begeleid."),
+            ("h2", "Wanneer een sportfysiotherapeut inschakelen"),
+            ("p", "Een bezoek is zinvol bij een blessure die niet vanzelf overgaat, bij terugkerende klachten of bij twijfel over de juiste opbouw van een training. Ook voorafgaand aan een zware fysieke inspanning kan begeleiding helpen om verantwoord op te bouwen. Bij veel praktijken kan een afspraak zowel met als zonder verwijzing van een arts worden gemaakt."),
+            ("h2", "Vergoeding"),
+            ("p", "Sportfysiotherapie komt in veel gevallen voor vergoeding in aanmerking. De precieze dekking hangt af van de aanvullende verzekering en van de afspraken tussen de praktijk en de zorgverzekeraar. Navraag bij de eigen zorgverzekeraar geeft daarover de meeste duidelijkheid."),
+            ("h2", "Sportfysiotherapie in Rotterdam"),
+            ("p", "Wie in de regio Rotterdam begeleiding zoekt bij een sportblessure, kan terecht bij gespecialiseerde praktijken. Een voorbeeld is <a href=\"https://fysiotherapie-leuvehaven.nl/sport-fysiotherapie-rotterdam/\" rel=\"nofollow\">Fysiotherapie Leuvehaven</a>, die sportfysiotherapie aanbiedt voor zowel de actieve sporter als voor kinderen en ouderen, met aandacht voor herstel en voor het voorkomen van blessures in de toekomst."),
+        ],
+        "faq": [
+            ("Wat is het verschil tussen fysiotherapie en sportfysiotherapie?", "Sportfysiotherapie is een specialisatie binnen de fysiotherapie, gericht op mensen die sporten en bewegen. De behandeling houdt rekening met de belasting van de specifieke sport en met een verantwoorde opbouw richting het oude niveau."),
+            ("Is een verwijzing van de huisarts nodig?", "Bij veel praktijken kan een afspraak zowel met als zonder verwijzing worden gemaakt. Voor de vergoeding kan een verwijzing in sommige situaties wel van belang zijn, afhankelijk van de zorgverzekeraar."),
+        ],
+        "related": ["dagelijks-bewegen"],
+    },
+    {
         "slug": "streng-dieet-werkt-zelden",
         "tag": "Voeding",
         "title": "Waarom een streng dieet zelden blijft werken",
