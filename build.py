@@ -187,6 +187,32 @@ def crumbs_html(items):
 # ----------------------------------------------------------------------------
 ARTICLES = [
     {
+        "slug": "inspanningstest-voor-sporters",
+        "tag": "Fitness",
+        "title": "Het belang van een goede inspanningstest voor sporters",
+        "desc": "Een inspanningstest laat zien hoe het lichaam reageert op oplopende belasting. Dat maakt gerichter trainen mogelijk en helpt overbelasting voorkomen.",
+        "date": "2026-07-09",
+        "intro": "Veel sporters trainen op gevoel. Zonder objectieve gegevens is lastig vast te stellen of er daadwerkelijk vooruitgang wordt geboekt. Een inspanningstest brengt in kaart hoe het lichaam reageert op een oplopende belasting, en maakt duidelijk waar de mogelijkheden en de aandachtspunten liggen.",
+        "body": [
+            ("h2", "Wat is een inspanningstest?"),
+            ("p", "Een inspanningstest is een onderzoek naar hoe het lichaam presteert tijdens lichamelijke inspanning. Afhankelijk van het doel loopt of fietst de sporter in een oplopend tempo, terwijl verschillende lichaamsfuncties worden gemeten. Denk aan de hartslag, de zuurstofopname en de ademhaling. Op basis van die gegevens bepaalt een specialist hoe het lichaam op inspanning reageert en waar de verbeterpunten liggen."),
+            ("h2", "Waarom een inspanningstest van belang is"),
+            ("p", "Een inspanningstest maakt doelgerichter trainen mogelijk. In plaats van af te gaan op gevoel, rusten de trainingen op objectieve meetgegevens. Daardoor sluit een schema beter aan op de persoonlijke conditie en belastbaarheid. Dat vergroot de kans op betere prestaties en helpt overbelasting en blessures te voorkomen."),
+            ("p", "Daarnaast wordt zo'n test regelmatig ingezet tijdens een revalidatietraject of om de voortgang van een trainingsprogramma te volgen. Periodiek meten geeft een helder beeld van de ontwikkeling van een sporter. Bij klachten die uit training voortkomen, sluit dat aan op de aanpak van <link href='/nieuws/sportfysiotherapie-herstel-en-preventie/' anchor='sportfysiotherapie'></link>, waarin herstel en preventie samengaan."),
+            ("h2", "Betrouwbare apparatuur voor nauwkeurige resultaten"),
+            ("p", "Voor betrouwbare uitkomsten is kwalitatieve meetapparatuur onmisbaar. Professionele apparatuur voor sportmedisch onderzoek zorgt dat elke meting nauwkeurig verloopt en dat de verzamelde gegevens bruikbaar zijn voor een gedegen analyse. Dat vormt de basis voor een goed trainingsadvies of een medisch oordeel."),
+            ("p", "<a href='https://lode-ergometry.com/product_cat/sports-medicine/'>Lode Ergometry</a> ontwikkelt en produceert al jarenlang hoogwaardige apparatuur voor sportmedische testen en inspanningsonderzoek. De systemen worden wereldwijd gebruikt door ziekenhuizen, sportmedische centra, universiteiten en fysiotherapiepraktijken die behoefte hebben aan betrouwbare en nauwkeurige meetresultaten."),
+            ("h2", "De voordelen voor sporters en professionals"),
+            ("p", "Een goede inspanningstest levert waardevolle informatie op, voor de sporter zelf en voor de begeleidende professional. Op basis van de meetgegevens worden trainingen geoptimaliseerd, prestaties verbeterd en gezondheidsrisico's tijdig gesignaleerd. Zo ontstaat een persoonlijke aanpak die aansluit bij de fysieke mogelijkheden van de sporter."),
+            ("p", "Met de innovatieve <a href='https://lode-ergometry.com/product_cat/sports-medicine/'>sports medicine apparatuur</a> van Lode Ergometry beschikken professionals over de juiste middelen om elke test nauwkeurig uit te voeren en sporters optimaal te begeleiden naar betere prestaties."),
+        ],
+        "faq": [
+            ("Voor wie is een inspanningstest zinvol?", "Zowel voor recreatieve als voor prestatiegerichte sporters. De test geeft inzicht in de conditie en de belastbaarheid, en wordt ook gebruikt bij revalidatie en om de voortgang van een trainingsprogramma te volgen."),
+            ("Wat wordt er tijdens een inspanningstest gemeten?", "Afhankelijk van de test onder meer de hartslag, de zuurstofopname en de ademhaling, terwijl de belasting stapsgewijs oploopt. Die gegevens laten zien hoe het lichaam op inspanning reageert."),
+        ],
+        "related": ["sportfysiotherapie-herstel-en-preventie", "dagelijks-bewegen"],
+    },
+    {
         "slug": "sportfysiotherapie-herstel-en-preventie",
         "tag": "Fitness",
         "title": "Sportfysiotherapie: gericht herstellen en blessures voorkomen",
