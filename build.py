@@ -740,7 +740,7 @@ def partners():
     path = "/partners/"
     crumbs = [("Home","/"),("Partners",path)]
     ld = [breadcrumb(crumbs)]
-    h = head("Partners | "+SITE, "Betrouwbare Nederlandse bronnen over voeding en gezondheid die BeterBody aanraadt, plus ruimte voor toekomstige linkpartners.", path, ld)
+    h = head("Partners | "+SITE, "Betrouwbare Nederlandse bronnen en partners over voeding, gezondheid en sport die BeterBody aanraadt, plus ruimte voor nieuwe linkpartners.", path, ld)
     h += header("/partners/")
     h += crumbs_html(crumbs)
     h += f"""<section class="section">
@@ -748,7 +748,7 @@ def partners():
     <div class="section-head">
       <span class="eyebrow">{LEAF}Aanbevolen bronnen</span>
       <h1>Partners en bronnen</h1>
-      <p>BeterBody verwijst graag naar betrouwbare Nederlandse bronnen over voeding en gezondheid. Hieronder twee toonaangevende autoriteiten.</p>
+      <p>BeterBody verwijst graag naar betrouwbare Nederlandse bronnen en partners over voeding, gezondheid en beweging.</p>
     </div>
     <div class="grid-2">
       <div class="partner">
@@ -765,6 +765,14 @@ def partners():
           <h3>Thuisarts</h3>
           <p>Thuisarts.nl biedt betrouwbare medische informatie van Nederlandse huisartsen over gezondheid, leefstijl en veelvoorkomende klachten.</p>
           <a href="https://www.thuisarts.nl/" target="_blank" rel="noopener">Naar thuisarts.nl</a>
+        </div>
+      </div>
+      <div class="partner" style="grid-column:1/-1">
+        <div class="mark">J</div>
+        <div>
+          <h3>JustPadel</h3>
+          <p>Padel is een van de snelst groeiende manieren om in beweging te blijven. JustPadel is een Nederlandse specialist in padeluitrusting, met rackets, schoenen, ballen, tassen en kleding van merken als Adidas, Babolat, Bullpadel, Head, Nox, Siux en Wilson. Een keuzehulp en reviews van trainers en spelers maken het makkelijker om een racket te kiezen dat past bij niveau en speelstijl, en via Try and Buy zijn rackets op locatie eerst te testen.</p>
+          <a href="https://justpadel.com/collections/padelrackets" target="_blank" rel="noopener">Bekijk het aanbod padelrackets</a>
         </div>
       </div>
     </div>
