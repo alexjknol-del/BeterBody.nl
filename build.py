@@ -767,14 +767,14 @@ def partners():
           <a href="https://www.thuisarts.nl/" target="_blank" rel="noopener">Naar thuisarts.nl</a>
         </div>
       </div>
-      <div class="partner" style="grid-column:1/-1">
+      <div class="partner">
         <div class="mark">J</div>
         <div>
           <h3>JustPadel</h3>
           <p>Padel is een van de snelst groeiende manieren om in beweging te blijven. JustPadel is een Nederlandse specialist in padeluitrusting, met rackets, schoenen, ballen, tassen en kleding van merken als Adidas, Babolat, Bullpadel, Head, Nox, Siux en Wilson. Een keuzehulp en reviews van trainers en spelers maken het makkelijker om een racket te kiezen dat past bij niveau en speelstijl, en via Try and Buy zijn rackets op locatie eerst te testen.</p>
           <a href="https://justpadel.com/collections/padelrackets" target="_blank" rel="noopener">Bekijk het aanbod padelrackets</a>
         </div>
-      </div>
+      </div><div class="partner"><div class="mark">A</div><div><h3>AED Heroes</h3><p>AEDHeroes biedt compacte AED's, waaronder de Pocket AED, en abonnementen voor onderhoud en vervanging. Bij een hartstilstand kan een AED binnen handbereik het verschil maken.</p><a href="https://aedheroes.nl/" target="_blank" rel="noopener">aed heroes</a></div></div>
     </div>
     <div class="callout" style="margin-top:36px">
       <p><strong>Linkpartner worden?</strong> Voor een samenwerking is BeterBody bereikbaar via <a href="mailto:info@beterbody.nl">info@beterbody.nl</a>.</p>
