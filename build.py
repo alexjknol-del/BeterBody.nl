@@ -187,6 +187,37 @@ def crumbs_html(items):
 # ----------------------------------------------------------------------------
 ARTICLES = [
     {
+        "slug": "apparatuur-in-een-behandelpraktijk",
+        "tag": "Fitness",
+        "title": "Apparatuur in een behandelpraktijk: waar de rekensom op vastloopt",
+        "desc": "De aanschafprijs is zelden het probleem. De bezettingsgraad is dat wel.",
+        "date": "2026-08-19",
+        "intro": "Bij het uitbreiden van een praktijk met apparatuur wordt meestal gerekend met de aanschafprijs en het tarief per behandeling. Die twee getallen leveren een terugverdientijd op die er aantrekkelijk uitziet en die in de praktijk zelden wordt gehaald.",
+        "body": [
+            ("p", "Bij het uitbreiden van een praktijk met apparatuur wordt meestal gerekend met de aanschafprijs en het tarief per behandeling. Die twee getallen leveren een terugverdientijd op die er aantrekkelijk uitziet en die in de praktijk zelden wordt gehaald."),
+            ("h2", "Wat er in de rekensom ontbreekt"),
+            ("ul", ["De tijd voor opbouw, uitleg en nazorg per behandeling.", "De leercurve van de eerste maanden, waarin de behandeltijd langer is.", "Verbruiksartikelen en onderhoud, per jaar en niet eenmalig.", "De ruimte die de apparatuur bezet houdt en niet meer inzetbaar is voor iets anders."]),
+            ("p", "Vooral het eerste punt telt zwaar. Een behandeling van dertig minuten kost in de agenda vrijwel altijd vijfenveertig, en dat verschil bepaalt hoeveel behandelingen er per week werkelijk in passen."),
+            ("h2", "Bezetting is bepalender dan de prijs"),
+            ("p", "Twee praktijken met dezelfde apparatuur komen op een heel ander resultaat uit wanneer de een vier en de ander tien behandelingen per week doet. De vraag vooraf is dus niet wat het apparaat kost, maar hoeveel klanten in het bestaande bestand er belangstelling voor hebben."),
+            ("p", "Een bruikbare toets is het eigen klantenbestand van de afgelopen twaalf maanden doorlopen en tellen hoeveel klanten passen bij de indicatie. Levert dat minder dan vijftien namen op, dan is de bezetting het echte risico. Het aanbod staat bij <a href='https://bodysculpting-concept.nl/body-sculpting-apparaat/' rel='nofollow'>BodySculpting Concept</a>."),
+            ("h2", "Kopen of leasen"),
+            ("p", "Leasen verlaagt de drempel en verhoogt de kostprijs per behandeling. Voor een praktijk die de vraag nog moet opbouwen, is dat vaak de verstandiger route, omdat de verplichting meebeweegt met de opbouw."),
+            ("p", "Kopen loont zodra de bezetting stabiel is en de apparatuur meerdere jaren mee kan. Dat pleit ervoor om te beginnen met een behandeling waarvan de vraag zich makkelijk laat inschatten; ontharing met een diodelaser is daar een voorbeeld van, omdat de behandelreeks vaststaat en de klant terugkomt. Wat daarbij komt kijken staat op <a href='https://bodysculpting-concept.nl/laser-ontharingsapparaat/' rel='nofollow'>bodysculpting-concept.nl</a>."),
+            ("h2", "Voor de aanschaf"),
+            ("p", "Vraag naar de opleiding die bij de apparatuur hoort en naar de doorlooptijd bij storing. Een apparaat dat twee weken stilstaat in afwachting van een onderdeel, kost meer aan geannuleerde afspraken dan aan reparatie."),
+            ("p", "Bekijk daarnaast wat er aan verbruiksartikelen nodig is en of die van één leverancier moeten komen. Een gunstige aanschafprijs met dure verplichte verbruiksartikelen valt over drie jaar duurder uit dan het omgekeerde."),
+            ("h2", "De eerste maanden"),
+            ("p", "Reken erop dat de eerste drie maanden vooral in het teken staan van uitleg en gewenning, zowel bij de behandelaar als bij de klant. Behandelingen duren in die periode langer en de agenda vult zich trager dan in de prognose."),
+            ("p", "Een aanpak die in de praktijk werkt, is beginnen met een kleine groep bestaande klanten tegen een introductietarief, in ruil voor een schriftelijke ervaring achteraf. Dat levert zowel de leercurve op als het materiaal waarmee de behandeling daarna aan nieuwe klanten uit te leggen is."),
+        ],
+        "faq": [
+            ("Wat kost apparatuur voor een behandelpraktijk gemiddeld?", "Dat verschilt sterk per type apparaat en per leverancier. Belangrijker dan de aanschafprijs is de bezettingsgraad: hetzelfde apparaat levert bij vier behandelingen per week een heel ander resultaat op dan bij tien."),
+            ("Is leasen verstandiger dan kopen?", "Voor een praktijk die de vraag nog moet opbouwen wel, omdat de verplichting meebeweegt met die opbouw. Zodra de bezetting stabiel is en het apparaat meerdere jaren mee kan, wordt kopen doorgaans gunstiger."),
+        ],
+        "related": [],
+    },
+    {
         "slug": "inspanningstest-voor-sporters",
         "tag": "Fitness",
         "title": "Het belang van een goede inspanningstest voor sporters",
