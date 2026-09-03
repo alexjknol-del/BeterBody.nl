@@ -187,6 +187,28 @@ def crumbs_html(items):
 # ----------------------------------------------------------------------------
 ARTICLES = [
     {
+        "slug": "bewegen-en-balans-in-twente",
+        "tag": "Leefstijl",
+        "title": "Bewegen en balans in Twente: van yoga tot fysiotherapie",
+        "desc": "Yoga en fysiotherapie hebben ieder hun eigen rol, maar dragen allebei bij aan bewust en verantwoord bewegen.",
+        "date": "2026-09-03",
+        "intro": "In Twente zijn er veel manieren om aandacht te besteden aan beweging en een gezonde leefstijl. Yoga en fysiotherapie hebben ieder hun eigen rol, maar kunnen allebei bijdragen aan bewust en verantwoord bewegen.",
+        "body": [
+            ("p", "In Twente zijn er veel manieren om aandacht te besteden aan beweging en een gezonde leefstijl. De \u00e9\u00e9n vindt ontspanning in een rustige yogales, terwijl een ander juist graag sport of veel buiten beweegt. Toch kan het lichaam soms aangeven dat het wat extra aandacht nodig heeft. Yoga en fysiotherapie hebben ieder hun eigen rol, maar kunnen allebei bijdragen aan bewust en verantwoord bewegen. Voor inwoners uit de regio kan <a href=\'https://fit-punt.nl/yoga/\' target=\'_blank\' rel=\'noopener\'>yoga in Hengelo</a> bijvoorbeeld een manier zijn om op een rustige manier met beweging bezig te zijn, terwijl fysiotherapie in Enschede ondersteuning kan bieden wanneer bewegen door een klacht of blessure tijdelijk minder vanzelfsprekend is."),
+            ("h2", "Bewust bewegen en luisteren naar je lichaam"),
+            ("p", "Een actief leven hoeft niet altijd te bestaan uit intensieve trainingen of lange sportsessies. Juist regelmatig en bewust bewegen kan een waardevol onderdeel zijn van de dagelijkse routine. Yoga sluit hier goed bij aan, omdat tijdens een yogales niet alleen aandacht is voor de beweging zelf, maar ook voor ademhaling, houding en ontspanning. Door verschillende houdingen uit te voeren en bewust te voelen wat er in het lichaam gebeurt, ontstaat er meer aandacht voor de manier waarop je beweegt. In Hengelo zijn verschillende vormen van yoga mogelijk, waardoor mensen kunnen kiezen voor een rustige of juist actievere vorm die past bij hun eigen voorkeur en ervaring."),
+            ("h2", "Een lichamelijke klacht hoeft niet blijvend te zijn"),
+            ("p", "Wie regelmatig beweegt, kan merken dat het lichaam soms grenzen aangeeft. Een verkeerde beweging tijdens het sporten, een overbelasting of een klacht die langzaam is ontstaan, kan invloed hebben op dagelijkse activiteiten. Wanneer pijn of een bewegingsbeperking langere tijd aanhoudt, kan het verstandig zijn om te laten beoordelen waar de klacht vandaan komt. <a href=\'https://www.fysiomedics.nl/\' target=\'_blank\' rel=\'noopener\'>Fysio in Enschede</a> kan in zo\u2019n situatie een rol spelen bij het onderzoeken en behandelen van lichamelijke klachten. Afhankelijk van de situatie kan de begeleiding bijvoorbeeld bestaan uit oefeningen, advies over bewegen of het rustig opbouwen van de belasting. Het doel is daarbij niet alleen om een klacht te behandelen, maar ook om te kijken hoe iemand op een verantwoorde manier weer verder kan bewegen."),
+            ("h2", "Bewegen in de omgeving van Hengelo en Enschede"),
+            ("p", "Hengelo en Enschede liggen dicht bij elkaar en vormen samen met omliggende plaatsen een actief deel van Twente. In de regio zijn veel mogelijkheden om in beweging te blijven, van wandelen en fietsen tot sporten en yoga. Dat maakt het gemakkelijker om een vorm van bewegen te zoeken die aansluit bij het dagelijks leven. Voor de \u00e9\u00e9n is dat een wekelijkse yogales, voor de ander een wandeling door het buitengebied of een sport die met plezier wordt beoefend. Het hoeft niet ingewikkeld te zijn om meer beweging in het dagelijks leven te brengen; regelmaat en aandacht voor het eigen lichaam zijn vaak belangrijker dan hoe intensief een activiteit is."),
+            ("h2", "Een goede balans tussen inspanning en ontspanning"),
+            ("p", "Bewegen en rust hoeven elkaar niet uit te sluiten. Juist de afwisseling tussen inspanning en ontspanning kan helpen om het lichaam op een prettige manier te blijven gebruiken. Yoga kan ruimte bieden voor bewustwording en ontspanning, terwijl fysiotherapie ondersteuning kan geven wanneer een lichamelijke klacht het bewegen bemoeilijkt. Door goed te luisteren naar signalen van het lichaam en activiteiten af te stemmen op wat op dat moment haalbaar is, wordt bewegen een onderdeel van het dagelijks leven dat beter vol te houden is. Zo kunnen yoga, sport en andere vormen van beweging ieder op hun eigen manier bijdragen aan actief blijven in Twente."),
+        ],
+        "faq": [],
+        "related": [],
+    },
+
+    {
         "slug": "apparatuur-in-een-behandelpraktijk",
         "tag": "Fitness",
         "title": "Apparatuur in een behandelpraktijk: waar de rekensom op vastloopt",
